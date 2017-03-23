@@ -1,0 +1,20 @@
+{
+  "name": "bs-protobuf-demo",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "bs-platform": "file:../bucklescript.git/",
+    "express": "^4.15.2",
+    "pug": "^2.0.0-beta11"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.23.0",
+    "babel-core": "^6.23.1",
+    "babel-loader": "^6.4.0",
+    "babel-preset-env": "^1.2.1"
+  },
+  "scripts": {
+    "build": "bsb -clean-world && bsb -make-world",
+    "start": "yarn build && node lib/js/src/",
+    "bsb": "bsb --help"
+  }
+}
