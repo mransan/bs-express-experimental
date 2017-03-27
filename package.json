@@ -1,8 +1,9 @@
 {
-  "name": "bs-protobuf-demo",
+  "name": "bs-express-exp",
+  "version" : "0.0.1",
   "dependencies": {
     "body-parser": "^1.17.1",
-    "bs-platform": "file:../bucklescript.git/",
+    "bs-platform": "git://github.com/bloomberg/bucklescript.git",
     "express": "^4.15.2",
     "pug": "^2.0.0-beta11"
   },
