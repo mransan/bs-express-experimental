@@ -1,9 +1,9 @@
 {
-  "name": "bs-express-exp",
+  "name": "bs-express",
   "version" : "0.0.1",
   "dependencies": {
     "body-parser": "^1.17.1",
-    "bs-platform": "git://github.com/bloomberg/bucklescript.git",
+    "bs-platform": "^1.6.x",
     "express": "^4.15.2",
     "pug": "^2.0.0-beta11"
   },

@@ -1,5 +1,5 @@
 {
-  "name": "express",
+  "name": "bs-express",
   "sources": [ "src" ], 
   "bs-dependencies": [ ]
 }
